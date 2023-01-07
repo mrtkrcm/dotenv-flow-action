@@ -1,6 +1,6 @@
 {
   "name": "dotenv-flow-action",
-  "version": "2.7.0",
+  "version": "3.0.0",
   "description": "Load variables from a .env* files",
   "main": "index.js",
   "scripts": {
