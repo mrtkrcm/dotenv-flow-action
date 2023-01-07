@@ -1,13 +1,13 @@
-name: 'Dotenv Action'
-description: 'Load variables from .env file'
+name: 'Dotenv Flow Action'
+description: 'Load variables from .env* files'
 branding:
   icon: play
   color: green
 inputs:
   path:  # id of input
-    description: 'the path to the .env file (including file name)'
+    description: 'specify a path to .env* files directory'
     required: true
-    default: '.env'
+    default: './'
   log-variables:
     description: 'whether to log the variables to output or not'
     required: false

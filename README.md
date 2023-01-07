@@ -4,7 +4,7 @@ It reads the `.env` file from the root of this repo and provides environment var
 
 ## Build history
 
-[![Build history](https://buildstats.info/github/chart/falti/dotenv-action?branch=master)](https://github.com/falti/dotenv-action/actions)
+[![Build history](https://buildstats.info/github/chart/mrtkrcm/dotenv-action?branch=master)](https://github.com/mrtkrcm/dotenv-action/actions)
 
 ## Inputs
 
