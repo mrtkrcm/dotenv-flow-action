@@ -6,7 +6,7 @@ let dotenv_action = function (dotenvFile) {
         throw new Error('file does not exist');
     }
 
-    const dotenv = require('dotenv').config({ path: dotenvFile });
+    const dotenv = require("dotenv-flow").config({ path: dotenvFile })
     const dotenv_expand = require('dotenv-expand').expand(dotenv);
     console.log("loading .env file from " + dotenvFile);
     
