@@ -22,7 +22,7 @@ try {
     );
   }
 
-  core.setOutput('generic', 'please check for actual outputs');
+  core.setOutput("generic", JSON.stringify(variables))
 
   for (const key in variables) {
     const value = variables[key];
